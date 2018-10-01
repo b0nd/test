@@ -1,0 +1,220 @@
+@import "./Styles/header.css";
+@import "./Styles/footer.css";
+@import "./Styles/recent-task.css";
+@import "./Styles/static-screen.css";
+@import "./Styles/sub-header.css";
+@import "./Styles/signup.css";
+@import "./Styles/responsive.css";
+@import "./Styles/popup.css";
+@import "./Styles/posttask.css";
+@import "./Styles/browse-task.css";
+@import "./Styles/my-task.css";
+@import "./Styles/about-us.css";
+@import "./Styles/become-a-tasker.css";
+@import "./Styles/how-it-works.css";
+@import url("https://fonts.googleapis.com/css?family=Heebo:100,300,400,500,700,800");
+
+.center-align {
+  text-align: center;
+}
+html {
+  scroll-behavior: smooth;
+}
+.left-align {
+  text-align: left;
+}
+.right-align {
+  text-align: right;
+}
+.top-margin {
+  margin-top: 20px;
+}
+input{
+  background: transparent;
+}
+.email-varification-screen .custom-row {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left:20%;
+}
+
+.home-container {
+  width: 100%;
+  text-align: center;
+  
+}
+.welcome-text {
+  color: #173a57;
+  font-weight: 900;
+}
+
+.register-step-1-popup-size {
+  height: 450px;
+  width: 400px;
+  
+}
+.radio input[type="radio"] {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  left: 15px;
+  margin: 0;
+}
+label {
+  color: #5a5b5b;
+}
+h4 {
+  color: #5a5b5b;
+}
+/* .register-step-2 {
+  height: 440px;
+  width: 350px;
+} */
+.auto-overflow {
+  overflow:auto;
+}
+.float-right {
+  float: right;
+}
+
+
+
+/** multistep form css */
+* {
+  box-sizing: border-box;
+}
+
+
+#regForm {
+  background-color: #ffffff;
+  margin: 0;
+  border-radius: 5px;
+ 
+  
+}
+
+h1 {
+  text-align: center;  
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  
+  border: 1px solid #aaaaaa;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.tab {
+  display: none;
+}
+
+button {
+  background-color: #4CAF50;
+  color: #ffffff;
+  border: none;
+  padding: 7px 20px;
+  font-size: 17px;
+  font-family: Raleway;
+  cursor: pointer;
+}
+
+
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;  
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+  
+}
+
+.step.active {
+  opacity: 1;
+}
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #4CAF50;
+}
+
+.display {
+  display: block;
+}
+.hide {
+  display: none;
+}
+
+
+.upload-btn-wrapper {
+  margin: 49px auto 20px;
+  text-align: center;
+}
+
+.upload-btn {
+  color: #000;
+  background-color: #ccc;
+  padding: 0;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 15px 0 0 0 !important;
+  width: 190px;
+  border-radius: 50px !important;
+}
+
+
+.upload-btn-wrapper input[type=file] {
+  /* font-size: 100px; */
+  position: absolute;
+  left: 0;
+  top: 55px;
+  opacity: 0;
+  height: 149px;
+  width: 118px;
+  right: 0;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+
+.myclass {
+
+}
+.myclass li {
+  width: 100% !important;
+}
+
+body{font-family: 'Heebo', sans-serif !important;}
+
+.email-varification-screen .custom-row {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left:20%;
+}
+
+.error-msg {
+  color: #dc0f0f;
+  padding-left: 20px;
+  padding-top: 2px; 
+  font-weight: 450;
+}
+
+.error-template {padding: 40px 15px;
+  text-align: center;
+  margin: 55px auto auto;
+  width: 50% 
+}
+.error-actions {margin-top:15px;margin-bottom:15px;}
+.error-actions .btn { margin-right:10px; }
+
+

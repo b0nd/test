@@ -1,0 +1,311 @@
+.static-screen {
+
+}
+
+.static-screen .container-fluid {
+    padding: 0px;
+}
+.static-screen .main-container {
+    background-color: #173a57;
+    height: 265px;
+    overflow:hidden;
+    position: relative;
+}
+
+.static-screen .near-service-label {
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+.main-container img {
+    opacity: 0.4;
+    width: 100%;
+    margin-top: -64px;
+}
+.static-screen .near-service-row {
+    text-align: center;
+    height: 130px;
+    position: absolute;
+    top: 65px;
+    left: 0;
+    right: 0;
+    margin: 0;
+}
+
+
+.static-screen .recieve-label {
+    color: #fff;
+    font-weight: 300;
+    margin: auto;
+    width:  65%;
+
+}
+
+.static-screen .recieve-row {
+    text-align: center;
+}
+
+.static-screen .selection-row {
+    background: #45b5ff;
+    /* background-color: #FAC934; */
+    height: 61px;
+    position: absolute;
+    /* left: 0; */
+    /* right: 0; */
+    top:274px;
+}
+.static-screen .get-free-quotes {
+    border-radius:0;
+    background: #003056;
+    color: #fff !important;
+    cursor: pointer;
+    float: left;
+    font-size: 15px;
+    height: 38px;
+    letter-spacing: .44px;
+    line-height: 31px;
+    margin: 12px 10px 0 0px;
+    overflow: hidden;
+    text-align: center;
+    width: 160px;
+    padding: 3px 0px 0px 0px !important;
+}
+
+.static-screen .i-need-label {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 66px;
+    margin: auto;
+    display: block;
+}
+
+.static-screen .form-control {
+    /* background-color: transparent; */
+    line-height: 0;
+    margin: auto;
+    top: 12px;
+    position: relative;
+    border: none;
+    border-bottom: 1px #fff solid;
+    border-radius: 0px;
+    color: #003056;
+    font-size: 17px;
+    height: 38px;
+    padding: 7px 3px;
+    margin: 0;
+    font-weight: 400;
+}
+
+.static-screen select option {
+    font-size: 24px;
+    margin: 40px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+.static-screen .what-is-airTasker-label {
+    color: rgb(58, 61, 62);
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0 0 20px;
+}
+.static-screen .main-title-label {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(58, 61, 62);
+    padding: 20px 0px 12px;
+}
+.static-screen .sub-title-label {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(131, 144, 148);
+    max-width: 180px;
+    margin: 0px auto;
+}
+.static-screen .recent-task {
+    background-color: red;
+    height:200px;
+    width: 400px;
+    position: relative;
+}
+.static-screen .parent-row {
+    padding: 20px 20px 20px 50px;
+}
+.static-screen .recent-task-label {
+    font-size: 22px;
+    font-weight: 500;
+    color: #3a3d3e;
+    margin-left:2%;
+    margin-top: 20px;
+}
+.leftContent {
+    text-align: left;
+}.jumbotron .leftContent h4{
+    font-size:21px;
+}
+
+.jumbotron .leftContent p{
+    font-size: 15px;
+    font-weight:400;
+}
+.rightContent {
+    text-align: left;
+    padding-left:80px !important; 
+}
+.subCat{
+    margin-bottom:0;
+}
+.subCat li{
+    display: block;
+    text-align: left;
+    padding:5px 0;
+}
+.subCat li a{
+padding: 0;
+}
+/* more less css */
+
+.containerMoreLess ul {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+    
+  }
+  
+  /* .rightContent li {
+    height: 50px;
+    line-height: 50px;
+    border-top: 1px solid #e9ecef;
+  } */
+  
+ .rightContent ul a {
+    display: block;
+    height: 100%;
+    text-decoration: none;
+    position: relative;
+    -webkit-transition: background .3s;
+            transition: background .3s;
+  }
+  
+  /* .rightContent ul a:after {
+    content: '⇢';
+    position: absolute;
+    right: 10px;
+  }
+  
+  ul a:hover {
+    background: #cdcbc4; 
+  }
+   */
+  
+  
+  /* CHECKBOX CONTAINER STYLES
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  
+  .rightContent { 
+    position: relative; 
+    height: auto;
+    border-top: 0;
+  }
+  
+  .rightContent [type="checkbox"] {
+    position: absolute;
+    left:  -9999px;   
+  }
+  
+  .rightContent label {
+    font-weight: 500;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    position: relative;
+    /*
+     * no need to position absolutely the element 
+     * because we are not interested in any transition effect
+     * position: absolute;
+     * top: 0;
+     */
+  }
+  
+  /*
+   * use the rule below for testing purposes
+   * label:hover {
+   *    background: yellow;
+   *  }
+   */
+  
+   .rightContent label:before,
+   .rightContent  label:after {
+      position: absolute;
+  }
+  
+  .rightContent label:before {
+    content: 'More';
+    left:0;
+    color:#68b8f7;
+  }
+  
+  .rightContent label:after {
+    content: '⇣●';
+    right: 10px;
+    -webkit-animation: sudo .85s linear infinite alternate;
+            animation: sudo .85s linear infinite alternate;
+            color:#68b8f7;
+  }
+  
+  @keyframes sudo { 
+      from { 
+      -webkit-transform: translateY(-2px); 
+              transform: translateY(-2px); 
+    }
+      to { 
+      -webkit-transform: translateY(2px); 
+              transform: translateY(2px); 
+    }
+  }
+  
+  .rightContent input[type="checkbox"] ~ ul {
+    width: 100%;
+      display: none;
+  }
+  
+  
+  
+  /* CHECKED STATE STYLES
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  
+  .rightContent [type="checkbox"]:checked ~ ul {
+    display: block;
+  } 
+  
+  .rightContent [type="checkbox"]:checked + label {
+    /**
+     * if we have positioned relatively the element, 
+     * during the "checked" state 
+     * we have to change its type of positioning
+     */
+    position: absolute; 
+    top: 100%;
+  }
+  
+  .rightContent [type="checkbox"]:checked + label:before {
+    content: 'Less';
+    color:#68b8f7;
+  }
+  
+  .rightContent  [type="checkbox"]:checked + label:after {
+   content: '⇡●'; 
+  }
+  
+  /* .rightContent ul li:last-child {
+    margin-bottom: 50px;
+  } */
+
+  /* more less css */
+    
+

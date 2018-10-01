@@ -1,0 +1,174 @@
+.mytask-task-screen {
+
+}
+.accept-bid-popup {
+    height: 400px;
+    width: 400px;
+}
+.tick-class {
+    margin-left: 40%;
+}
+.message-btn {
+    width: 50%;
+    margin-left: 25%;
+}
+.bid-success-label {
+    padding-top: 2em;
+}
+.mytask-task-screen .main-box.no-header {
+    padding-top: 20px;
+}
+.mytask-task-screen .main-box {
+    background: #FFFFFF;
+    -webkit-box-shadow: 1px 1px 2px 0 #CCCCCC;
+    -moz-box-shadow: 1px 1px 2px 0 #CCCCCC;
+    -o-box-shadow: 1px 1px 2px 0 #CCCCCC;
+    -ms-box-shadow: 1px 1px 2px 0 #CCCCCC;
+    box-shadow: 1px 1px 2px 0 #CCCCCC;
+    margin-bottom: 16px;
+    -webikt-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.mytask-task-screen .table a.table-link.danger {
+    color: #e74c3c;
+}
+.mytask-task-screen .label {
+    border-radius: 3px;
+    font-size: 0.875em;
+    font-weight: 600;
+}
+.mytask-task-screen .user-list tbody td .user-subhead {
+    font-size: 0.875em;
+    font-style: italic;
+}
+.mytask-task-screen .user-list tbody td .user-link {
+    display: block;
+    font-size: 1.25em;
+    padding-top: 3px;
+    margin-left: 60px;
+}
+.mytask-task-screen a {
+    color: #3498db;
+    outline: none!important;
+}
+.mytask-task-screen .user-list tbody td>img {
+    position: relative;
+    max-width: 50px;
+    float: left;
+    margin-right: 15px;
+}
+
+.mytask-task-screen .table thead tr th {
+    text-transform: uppercase;
+    font-size: 0.875em;
+}
+.mytask-task-screen .table thead tr th {
+    border-bottom: 2px solid #e7ebee;
+}
+.mytask-task-screen .table tbody tr {
+    cursor: pointer;
+}
+.mytask-task-screen .table tbody tr td:first-child {
+    font-size: 1.125em;
+    font-weight: 300;
+}
+.mytask-task-screen .table tbody tr td {
+    font-size: 0.875em;
+    vertical-align: middle;
+    border-top: 1px solid #e7ebee;
+    padding: 12px 8px;
+}
+ .table-responsive .table user-list tbody tr {
+    cursor: pointer;
+}
+.mytask-task-screen ul {
+    list-style-type: none;
+    
+}
+.mytask-task-screen ul li {
+    display: block;
+    width: 100%;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+  }    
+.flex-container .bidder_img {
+    flex: 0 0 7.5em;
+  }    
+.flex-container .description-area {
+    flex: 0 0 35em;
+  }    
+
+.flex-container .bidder_img-style {
+    height: 70px;
+    width: 70px;
+    border-radius: 35px
+  }    
+.flex-container .bidder-name {
+    color: #4f6392;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 8px 0 0px;
+  }    
+  .flex-container .bidder-email {
+    color: #494c52;
+    font-size: 16px;
+    font-weight: 300;
+    margin:0;
+  }
+  
+  .flex-container .price-area {
+    flex: 0 0 5em;
+  }    
+  .flex-container .btn-area {
+    flex: 0 0 7em;
+    text-align: center
+  }    
+  .flex-container .offer-area {
+    margin-left: 7em;
+    flex: 0 0 30em;
+    background: #bcbebf47;
+    padding: 20px;
+    border-radius: 10px;
+  }    
+  .flex-container .location-area {
+    margin-left: 1em;
+    flex: 0 0 20em;
+    background: #e6e8ea;
+    padding: 20px;
+    border-radius: 10px;
+  }  
+  .flex-container .location-label {
+      display: inline;
+      position: relative;
+      top:-5px;
+      margin-left: 10px
+  }  
+  .flex-container .offer-area .offer-label {
+    color: #494c52
+  }    
+  .flex-container .btn-area .btn-success{
+    border-radius: 25px;
+    color: #fff !important;
+    margin-top: 6px;
+    width: 80%
+  }    
+  .flex-container .price-area .offer-label {
+    color: #4f6392;
+    font-size: 24px;
+    font-weight: 700;
+    margin:10px 0;
+  }    
+  .mytask-task-screen .bid-row {
+    margin-bottom: 20px;
+    background: #9e9ea026;
+    padding: 10px;
+    border-radius: 10px
+}
+  .mytask-task-screen .back-to-top-label {
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-left: 5px;
+}

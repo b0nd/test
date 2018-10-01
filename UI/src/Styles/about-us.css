@@ -1,0 +1,88 @@
+.about-us-screen {
+    position: relative;
+    top: 72px;
+    height:auto;
+}
+.about-us-screen .container-fluid {
+    padding-left:0;
+    padding-right: 0; 
+}
+.about-us-screen .heading-row {
+    text-align: center;
+    width: 100%;
+    margin: auto !important;
+    margin-top: 0px !important;
+    background-image: url("https://www.logixconsulting.com/images/showcase-1.jpg");
+    background-repeat: no-repeat;
+    height: 250px;
+}
+.about-us-screen .main-heading {
+    font-weight: 900;
+    font-size: 2em;
+    margin: 0px;
+    color: #fff;
+}
+.about-us-screen .sub-heading {
+    font-weight: 400;
+    font-size: 1.5em;
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-left: auto;
+    color:#fff;
+    margin-top: 10px;
+}
+.about-us-screen .our-plan-row {
+    text-align: center;
+    width: 100%;
+    margin: auto !important;
+    margin-top: 20px !important;
+    padding: 20px;
+}
+.about-us-screen .title-label {
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.9em;
+    background: #4188b7;
+    width: 250px;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.about-us-screen .do-fast-label {
+    font-weight: 500;
+    font-size: 1.5em;
+    color: #7e8388;
+}
+.about-us-screen .do-fast-description-label {
+    font-size: 1.3em;
+    font-weight: 300;
+    width: 80%;
+    margin: auto;
+    color: #7e8388;
+}
+.about-us-screen hr {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border: 0;
+    border-top: 1px solid #eee;
+    width: 80%;
+}
+.about-us-screen .top-margin {
+    margin-top: 20px !important;
+}
+.about-us-screen .outcome-label {
+    background: #de877d;
+    height: 150px !important;
+    color: white !important;
+    width: 200px;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 110px;
+    display: block;
+    margin-top: 15px;
+}
+.about-us-screen .block-div {
+    height: 70px;
+}

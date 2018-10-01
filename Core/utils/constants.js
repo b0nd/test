@@ -1,0 +1,6 @@
+ const STATUS_CODE ={
+    NO_RECORDS_FOUND:210,
+    INTERNAL_SERVER_ERROR:502
+};
+
+export default STATUS_CODE;
